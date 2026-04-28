@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1777360925 source:d:\miniproject(upg)\upg\main.cpp
+	"include/TicketManager.h"
+	"include/Host.h"
+	"include/Player.h"
+	<iostream>
+	<vector>
+	<algorithm>
+	<random>
+	<ctime>
+
+1777358924 d:\miniproject(upg)\upg\include\ticketmanager.h
+	"LotoTicket.h"
+	<vector>
+
+1777357286 d:\miniproject(upg)\upg\include\lototicket.h
+	<iostream>
+	<vector>
+	<set>
+	<string>
+
+1777090265 source:d:\miniproject(upg)\upg\src\lototicket.cpp
+	"../include/LotoTicket.h"
+	<iomanip>
+
+1777358924 source:d:\miniproject(upg)\upg\src\ticketmanager.cpp
+	"../include/TicketManager.h"
+	<algorithm>
+	<random>
+	<ctime>
+	<iomanip>
+
+1777358924 d:\miniproject(upg)\upg\include\host.h
+	"TicketManager.h"
+
+1777360598 d:\miniproject(upg)\upg\include\player.h
+	"TicketManager.h"
+
+1777358924 source:d:\miniproject(upg)\upg\src\host.cpp
+	"../include/Host.h"
+	<iostream>
+	<iomanip>
+
+1777360598 source:d:\miniproject(upg)\upg\src\player.cpp
+	"../include/Player.h"
+	<iostream>
+	<algorithm>
+
